@@ -1,19 +1,16 @@
 import AuditForm from "@/components/audit/AuditForm";
-import SavingsHero from "@/components/shared/SavingsHero";
 
 export default function AuditPage() {
   return (
-    <div className="flex-1 w-full bg-muted/20 pb-16">
-      <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 pt-8">
-        
-        <div className="mb-10">
-          <SavingsHero />
+    <div className="flex-1 w-full bg-muted/10 pb-20 pt-8">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mb-8">
+          <h1 className="text-3xl font-extrabold tracking-tight mb-2">Spend Audit</h1>
+          <p className="text-muted-foreground text-lg">
+            Calculate your true AI subscription costs and discover immediate savings.
+          </p>
         </div>
-
-        <div className="bg-background rounded-xl border border-muted p-6 shadow-sm">
-          <AuditForm />
-        </div>
-
+        <AuditForm />
       </div>
     </div>
   );

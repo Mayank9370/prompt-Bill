@@ -12,11 +12,12 @@ export default function Navbar() {
             <span className="font-bold inline-block text-lg">PromptBill</span>
           </Link>
         </div>
-        
+
         <nav className="flex items-center gap-4">
           <Link href="/audit" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors hidden sm:block">
             Run Audit
           </Link>
+
           <Link href="https://github.com/your-org/ai-spend-audit" target="_blank" rel="noreferrer" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors hidden sm:block">
             GitHub
           </Link>
